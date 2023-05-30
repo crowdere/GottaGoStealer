@@ -5,7 +5,7 @@ I recreated the stealer described within a recent blog post by Symantec Threat I
 
 This was never suppose to be good programing practice, nor extensivley created. I just wanted to try recreate and extend that project. 
 
-See full blog post write up here: MEDIUM LINK
+See full blog post write up here: [MEDIUM LINK](https://medium.com/@EdwardCrowder/recreating-private-ransomware-gang-tools-blacktail-buhti-custom-exfiltration-tool-release-91d7f0bbf44d)
 
 
 Tested on Windows 10 and MacOS Venture 13.4. It should work on Linux.
